@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.linshuer.web03.admin.mapper.ArticleMapper">
+    <!-- 创建 -->
+    <insert id="create" parameterType="com.linshuer.web03.admin.entity.Article">
+        INSERT ignore INTO
+        tb_article(
+          title,
+          title_pic,
+          author,
+          content,
+          state,
+          eye_count,
+          publish_time,
+          edit_time
+          )
+          VALUES (
+          #{title},
+          #{titlePic},
+          #{author},
+          #{content},
+          #{state},
+          #{eye_count},
+          #{publishTime},
+          #{editTime}
+          )
+    </insert>
+
+    <!-- 查询最后一条记录的ID值 -->
+    <select id="getLastId" resultType="Long">
+        SELECT id FROM tb_article ORDER BY id DESC LIMIT 1;
+    </select>
+</mapper>
