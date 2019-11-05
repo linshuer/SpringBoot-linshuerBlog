@@ -18,7 +18,14 @@
 
 ## 截图
 # 1、登录页面
-![登录页面](https://raw.githubusercontent.com/mircode/calender/master/doc/html/img/construct.png)
+![登录页面](https://raw.githubusercontent.com/linshuer/SpringBoot-linshuerBlog/master/myimg/1.PNG)
+# 2、首页
+![登录页面](https://raw.githubusercontent.com/linshuer/SpringBoot-linshuerBlog/master/myimg/2.PNG)
+# 3、发表
+![登录页面](https://raw.githubusercontent.com/linshuer/SpringBoot-linshuerBlog/master/myimg/3.PNG)
+# 4、个人信息
+![登录页面](https://raw.githubusercontent.com/linshuer/SpringBoot-linshuerBlog/master/myimg/4.PNG)
+## 提醒
 * 提醒1 截图需要在myimg文件夹里，可以下载项目观看也可以自己使用梯子。
 * 提醒2 数据库sql需要自己运行。
 * 提醒3 这个项目还在完成中，，，。
